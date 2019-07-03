@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>sentiment</title>
+    <script src="libraries/p5.js" type="text/javascript"></script>
+
+    <script src="libraries/p5.dom.js" type="text/javascript"></script>
+    <script src="libraries/p5.sound.js" type="text/javascript"></script>
+
+    <script src="text.js" type="text/javascript"></script>
+
+    <style> 
+/*      body{
+        padding: 0; 
+        margin: 0 auto;
+      } */
+
+      @import url('https://fonts.googleapis.com/css?family=Montserrat|Ubuntu');
+
+      /*#title{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        font-size: 60px;
+      }*/
+
+      html{
+        background: url(background.png)no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      
+      #logo{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+      }
+
+      h1{
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      #texts{
+        margin-left: 200px;
+        margin-right: 200px;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+        text-align: center;
+      }
+
+      #texthere{
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      p{
+        text-align: center;
+        margin: 0 auto;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+      }
+
+      #score{
+        margin-top: 20px;
+      }
+
+      #comparative{
+        margin-top: 20px;
+      }
+
+      #wordlist{
+        margin-top: 20px;
+      }
+
+      #questions{
+        margin-top: 20px;
+      }
+
+      canvas {vertical-align: top;} 
+    </style>
+  </head>
+
+
+  <body>
+
+
+<!--   <div id="title">
+    <h1>Prose</h1>
+  </div> -->
+
+  <div id="logo">
+    <img src="logo.png">
+  </div>
+
+  <p>
+<!-- 
+    you can try these text:
+    </br>
+    </br>
+    <div id="texts">
+    Generally I am in good spirits and I am able to be cheered up easily but I have become more sensitive and anxious in this part of my life, small things in life can get to me and I easily feel lonely even when I know i have friends and partners and family who love me. My one true goal is to be able to be happy with myself without needing the assistance of others to make me happy. I feel weak in this regard and often question it other people feel this way. -->
+    </br>
+    </br>
+
+    Type here:
+    </br>
+    </br>
+    </div>
+  </p>
+
+    <p>
+    <textarea id="texthere" cols=50 rows=10></textarea>
+     </p>
+
+  <p id="score"></p>
+  <p id="comparative"></p>
+  <p id="wordlist"></p>
+  <p id="questions"></p>
+
+
+
+  </body>
+</html>
